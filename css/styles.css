@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@400;600;700;800&family=Barlow:wght@400;500;600&display=swap');
 
-/* ─── Reset & Base ─────────────────────────────────────────── */
+/* â”€â”€â”€ Reset & Base â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
@@ -42,7 +42,7 @@ body {
 img { max-width: 100%; display: block; }
 a { color: inherit; text-decoration: none; }
 
-/* ─── Typography ────────────────────────────────────────────── */
+/* â”€â”€â”€ Typography â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 h1, h2, h3, h4 { font-family: var(--font-head); letter-spacing: 0.04em; line-height: 1; }
 
 .section-label {
@@ -64,7 +64,7 @@ h1, h2, h3, h4 { font-family: var(--font-head); letter-spacing: 0.04em; line-hei
   background: var(--blue-glow);
 }
 
-/* ─── Utility ───────────────────────────────────────────────── */
+/* â”€â”€â”€ Utility â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
 .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0,0,0,0); }
 
@@ -107,7 +107,7 @@ h1, h2, h3, h4 { font-family: var(--font-head); letter-spacing: 0.04em; line-hei
 }
 .btn-ghost:hover { color: var(--white); border-color: var(--silver); }
 
-/* ─── Navigation ────────────────────────────────────────────── */
+/* â”€â”€â”€ Navigation â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .nav {
   position: fixed;
   top: 0; left: 0; right: 0;
@@ -230,7 +230,7 @@ h1, h2, h3, h4 { font-family: var(--font-head); letter-spacing: 0.04em; line-hei
 .mobile-menu.open { display: block; }
 .mobile-menu .nav-link { display: block; padding: 12px 0; font-size: 1.1rem; border-bottom: 1px solid var(--border); }
 
-/* ─── Hero ──────────────────────────────────────────────────── */
+/* â”€â”€â”€ Hero â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .hero {
   min-height: 88vh;
   display: grid;
@@ -374,7 +374,7 @@ h1, h2, h3, h4 { font-family: var(--font-head); letter-spacing: 0.04em; line-hei
   margin-top: 4px;
 }
 
-/* ── Hero Visual ── */
+/* â”€â”€ Hero Visual â”€â”€ */
 .hero-visual {
   position: relative;
   display: flex;
@@ -466,7 +466,7 @@ h1, h2, h3, h4 { font-family: var(--font-head); letter-spacing: 0.04em; line-hei
   z-index: 4;
 }
 
-/* ─── Platform Bar ──────────────────────────────────────────── */
+/* â”€â”€â”€ Platform Bar â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .platform-bar {
   background: var(--dark-mid);
   border-top: 1px solid var(--border);
@@ -512,7 +512,7 @@ h1, h2, h3, h4 { font-family: var(--font-head); letter-spacing: 0.04em; line-hei
 .platform-pill.apple:hover { border-color: #fc3c44; color: #fc3c44; box-shadow: 0 4px 12px rgba(252,60,68,0.2); }
 .platform-pill.youtube:hover { border-color: #FF0000; color: #FF0000; box-shadow: 0 4px 12px rgba(255,0,0,0.2); }
 
-/* ─── Episodes Section ──────────────────────────────────────── */
+/* â”€â”€â”€ Episodes Section â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .episodes-section { padding: 100px 0; }
 
 .section-header {
@@ -534,7 +534,7 @@ h1, h2, h3, h4 { font-family: var(--font-head); letter-spacing: 0.04em; line-hei
   gap: 28px;
 }
 
-/* ─── Episode Card ──────────────────────────────────────────── */
+/* â”€â”€â”€ Episode Card â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .ep-card {
   background: var(--dark-card);
   border: 1px solid var(--border);
@@ -705,13 +705,13 @@ h1, h2, h3, h4 { font-family: var(--font-head); letter-spacing: 0.04em; line-hei
 .ep-quote::before { content: '"'; color: var(--red); font-size: 1.2rem; font-style: normal; }
 .ep-quote::after { content: '"'; color: var(--red); font-size: 1.2rem; font-style: normal; }
 
-/* ─── Divider ───────────────────────────────────────────────── */
+/* â”€â”€â”€ Divider â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .divider {
   height: 1px;
   background: linear-gradient(90deg, transparent, var(--border), transparent);
 }
 
-/* ─── About Strip ───────────────────────────────────────────── */
+/* â”€â”€â”€ About Strip â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .about-strip {
   padding: 100px 0;
   background: var(--dark);
@@ -841,7 +841,7 @@ h1, h2, h3, h4 { font-family: var(--font-head); letter-spacing: 0.04em; line-hei
 .about-stat .num span { color: var(--red); }
 .about-stat .lbl { font-family: var(--font-sub); font-size: 0.65rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--muted); margin-top: 4px; }
 
-/* ─── CTA Banner ────────────────────────────────────────────── */
+/* â”€â”€â”€ CTA Banner â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .cta-banner {
   padding: 80px 0;
   position: relative;
@@ -872,7 +872,7 @@ h1, h2, h3, h4 { font-family: var(--font-head); letter-spacing: 0.04em; line-hei
 }
 .cta-platforms { display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; }
 
-/* ─── Footer ────────────────────────────────────────────────── */
+/* â”€â”€â”€ Footer â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .footer {
   background: var(--dark);
   border-top: 1px solid var(--border);
@@ -911,7 +911,7 @@ h1, h2, h3, h4 { font-family: var(--font-head); letter-spacing: 0.04em; line-hei
 .footer-legal a { font-size: 0.78rem; color: var(--muted); transition: color 0.2s; }
 .footer-legal a:hover { color: var(--silver); }
 
-/* ─── Page Header ───────────────────────────────────────────── */
+/* â”€â”€â”€ Page Header â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .page-header {
   padding: 140px 0 80px;
   background: var(--dark);
@@ -928,7 +928,7 @@ h1, h2, h3, h4 { font-family: var(--font-head); letter-spacing: 0.04em; line-hei
 .page-header-title { font-size: clamp(3rem, 6vw, 5.5rem); color: var(--white); margin-top: 12px; margin-bottom: 16px; }
 .page-header-desc { font-size: 1.05rem; color: var(--silver); max-width: 600px; line-height: 1.7; }
 
-/* ─── Full Episodes Page ────────────────────────────────────── */
+/* â”€â”€â”€ Full Episodes Page â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .episodes-full { padding: 80px 0 120px; }
 .episodes-full-grid { display: flex; flex-direction: column; gap: 36px; }
 
@@ -985,7 +985,7 @@ h1, h2, h3, h4 { font-family: var(--font-head); letter-spacing: 0.04em; line-hei
 .ep-col-title::before { content: ''; width: 16px; height: 1px; background: var(--blue-glow); }
 .topic-list { list-style: none; display: flex; flex-direction: column; gap: 8px; }
 .topic-list li { display: flex; align-items: flex-start; gap: 10px; font-size: 0.88rem; color: var(--silver); }
-.topic-list li::before { content: '▸'; color: var(--red); flex-shrink: 0; margin-top: 1px; }
+.topic-list li::before { content: 'â–¸'; color: var(--red); flex-shrink: 0; margin-top: 1px; }
 .insight-list { display: flex; flex-direction: column; gap: 10px; }
 .insight {
   background: rgba(200,40,30,0.03);
@@ -1011,7 +1011,7 @@ h1, h2, h3, h4 { font-family: var(--font-head); letter-spacing: 0.04em; line-hei
 .ep-full-quote::after { content: '"'; color: var(--red); font-size: 1.1rem; }
 .ep-listen-btns { display: flex; gap: 8px; flex-wrap: wrap; }
 
-/* ─── YouTube embed ─────────────────────────────────────────── */
+/* â”€â”€â”€ YouTube embed â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .ep-youtube-wrap {
   padding: 0 28px 28px;
   border-top: none;
@@ -1036,7 +1036,7 @@ h1, h2, h3, h4 { font-family: var(--font-head); letter-spacing: 0.04em; line-hei
   background: #000;
 }
 
-/* ─── About Page ────────────────────────────────────────────── */
+/* â”€â”€â”€ About Page â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .about-full { padding: 80px 0 120px; }
 .about-full-grid { display: grid; grid-template-columns: 3fr 2fr; gap: 60px; align-items: start; }
 .about-section { margin-bottom: 56px; }
@@ -1084,7 +1084,7 @@ h1, h2, h3, h4 { font-family: var(--font-head); letter-spacing: 0.04em; line-hei
 .sidebar-topic:last-child { border-bottom: none; }
 .topic-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--red); flex-shrink: 0; }
 
-/* ─── Topic Grid (about page) ───────────────────────────────── */
+/* â”€â”€â”€ Topic Grid (about page) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .topic-grid-item {
   background: var(--dark-card);
   padding: 18px 20px;
@@ -1101,8 +1101,8 @@ h1, h2, h3, h4 { font-family: var(--font-head); letter-spacing: 0.04em; line-hei
 }
 .topic-grid-desc { font-size: 0.85rem; color: var(--muted); }
 
-/* ─── Responsive ────────────────────────────────────────────── */
-/* ─── Hero YouTube Embed ────────────────────────────────────── */
+/* â”€â”€â”€ Responsive â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+/* â”€â”€â”€ Hero YouTube Embed â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .hero-yt-wrap {
   position: relative;
   width: 100%;
@@ -1122,11 +1122,12 @@ h1, h2, h3, h4 { font-family: var(--font-head); letter-spacing: 0.04em; line-hei
   width: 100%;
   height: 100%;
   display: block;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
   position: absolute;
   inset: 0;
   z-index: 1;
+  background: var(--black);
   transition: opacity 0.2s, transform 0.4s;
 }
 .hero-yt-wrap:hover .hero-yt-thumb { opacity: 0.88; transform: scale(1.02); }
@@ -1171,7 +1172,7 @@ h1, h2, h3, h4 { font-family: var(--font-head); letter-spacing: 0.04em; line-hei
   z-index: 3;
 }
 
-/* ─── Sidebar Logo ──────────────────────────────────────────── */
+/* â”€â”€â”€ Sidebar Logo â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .sidebar-logo-card {
   background: #fff;
   padding: 20px;
@@ -1187,7 +1188,7 @@ h1, h2, h3, h4 { font-family: var(--font-head); letter-spacing: 0.04em; line-hei
   margin: 0 auto;
 }
 
-/* ─── Host Cards ────────────────────────────────────────────── */
+/* â”€â”€â”€ Host Cards â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 .host-cards {
   display: flex;
   flex-direction: column;
@@ -1321,7 +1322,7 @@ h1, h2, h3, h4 { font-family: var(--font-head); letter-spacing: 0.04em; line-hei
   margin-bottom: 2px;
 }
 
-/* ─── Responsive ────────────────────────────────────────────── */
+/* â”€â”€â”€ Responsive â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
 @media (max-width: 1100px) {
   .hero-content { grid-template-columns: 1fr; gap: 40px; }
   .hero-visual { max-width: 560px; margin: 0 auto; }
