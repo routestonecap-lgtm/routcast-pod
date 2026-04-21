@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Episodes — The RoutCast Pod</title>
+  <meta name="description" content="Every episode of The RoutCast Pod. FedEx contractors sharing real numbers, real strategies, and the plays that transformed their businesses." />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+<body>
+
+  <!-- ─── NAV ─── -->
+  <nav class="nav scrolled" id="nav">
+    <div class="container">
+      <div class="nav-inner">
+        <a href="index.html" class="nav-logo">
+          <img src="assets/logo-large.jpg" alt="RoutCast Pod" class="nav-logo-img" />
+          <div class="nav-logo-text">
+            <span class="brand">ROUTCAST POD</span>
+            <span class="sub">FedEx Contractor Network</span>
+          </div>
+        </a>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="episodes.html" class="nav-link active">Episodes</a>
+          <a href="about.html" class="nav-link">About</a>
+        </div>
+        <a href="#listen" class="nav-cta">Subscribe</a>
+        <button class="nav-hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="mobile-menu">
+    <a href="index.html" class="nav-link">Home</a>
+    <a href="episodes.html" class="nav-link active">Episodes</a>
+    <a href="about.html" class="nav-link">About</a>
+  </div>
+
+  <!-- ─── PAGE HEADER ─── -->
+  <div class="page-header">
+    <div class="page-header-bg"></div>
+    <div class="container">
+      <div class="page-header-inner">
+        <span class="section-label">All Episodes</span>
+        <h1 class="page-header-title">From the <span style="color:var(--red-bright);">Field</span></h1>
+        <p class="page-header-desc">Every episode is a masterclass in FedEx contracting — real numbers, real operators, real transformation. No filler, no theory.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ─── PLATFORM BAR ─── -->
+  <div class="platform-bar" id="listen">
+    <div class="container">
+      <div class="platform-bar-inner">
+        <span class="platform-label">Subscribe On</span>
+        <button class="platform-pill spotify" data-platform="spotify">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.371-.721.49-1.101.241-3.021-1.858-6.832-2.278-11.322-1.237-.422.1-.851-.16-.949-.58-.1-.422.16-.851.58-.949 4.911-1.121 9.12-.641 12.501 1.43.38.24.5.721.291 1.095zm1.47-3.27c-.299.47-.931.621-1.4.322-3.459-2.131-8.73-2.75-12.82-1.5-.529.16-1.08-.14-1.24-.67-.159-.529.141-1.08.67-1.24 4.67-1.421 10.47-.72 14.43 1.71.47.299.621.93.36 1.38zm.127-3.41c-4.15-2.461-11.001-2.69-14.961-1.49-.639.19-1.31-.17-1.499-.81-.191-.64.17-1.31.81-1.5 4.55-1.38 12.12-1.11 16.9 1.72.57.34.76 1.08.42 1.65-.34.569-1.08.76-1.65.43z"/></svg>
+          Spotify
+        </button>
+        <button class="platform-pill apple" data-platform="apple">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701"/></svg>
+          Apple Podcasts
+        </button>
+        <button class="platform-pill youtube" data-platform="youtube" onclick="window.open('https://www.youtube.com/@RoutCast-h4d','_blank'); return false;">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+          YouTube
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ─── EPISODES LIST ─── -->
+  <section class="episodes-full">
+    <div class="container">
+      <div class="episodes-full-grid">
+
+        <!-- ── EP 1 ── -->
+        <article class="ep-card-full">
+          <div class="ep-card-full-header">
+            <div class="ep-num-block">
+              <div class="ep-num-big">01</div>
+              <div class="ep-num-label">Episode</div>
+            </div>
+            <div class="ep-header-info">
+              <div class="ep-full-meta">
+                <span class="ep-tag">DRO · Fleet · Valuation · Pay Structure</span>
+                <span class="ep-duration">~ 60 min</span>
+              </div>
+              <h2 class="ep-full-title">FedEx Route Values, 2.0 DRO Tricks &amp; EVs</h2>
+              <div class="ep-full-guest">Steve Ramsthel — FedEx Contractor &amp; Consultant, MRCapital.com</div>
+              <p class="ep-full-intro">
+                Steve Ramsthel has been running FedEx routes in the Pacific Northwest for 9 years and consults contractors through MRCapital.com. In this episode he breaks down what routes are actually worth right now, the next-level DRO tricks most operators have never heard of, and what the coming EV transition means for your fleet economics — with real numbers from his own operation.
+              </p>
+            </div>
+          </div>
+
+          <div class="ep-card-full-body">
+            <div class="ep-topics-col">
+              <div class="ep-col-title">Topics Covered</div>
+              <ul class="topic-list">
+                <li>Current FedEx route values — what the market is actually doing</li>
+                <li>Route valuation methodology: 3.25–3.5× EBITDA</li>
+                <li>DRO 2.0 — the tricks most contractors have never tried</li>
+                <li>How fixing DRO saved $150K–$180K annually</li>
+                <li>EV fleet transition: economics, timing, and what to expect</li>
+                <li>Driver pay structure — straight pay vs. percentage models</li>
+                <li>BC (Business Consultant) compensation frameworks</li>
+                <li>Fleet strategy: age, mix, and lease vs. own decisions</li>
+                <li>Dropping payroll from 67% to under 50% of revenue</li>
+                <li>R&M from 11% down to 2.67% of revenue — how he did it</li>
+              </ul>
+            </div>
+            <div class="ep-insights-col">
+              <div class="ep-col-title">Key Numbers</div>
+              <div class="insight-list">
+                <div class="insight">
+                  <div class="insight-stat">$150K–$180K/yr</div>
+                  <div class="insight-desc">Annual savings from fixing DRO optimization</div>
+                </div>
+                <div class="insight">
+                  <div class="insight-stat">11% → 2.67%</div>
+                  <div class="insight-desc">R&M as % of revenue — dramatic fleet improvement</div>
+                </div>
+                <div class="insight">
+                  <div class="insight-stat">67% → &lt;50%</div>
+                  <div class="insight-desc">Payroll as % of revenue after restructuring</div>
+                </div>
+                <div class="insight">
+                  <div class="insight-stat">3.25–3.5× EBITDA</div>
+                  <div class="insight-desc">Current route valuation benchmark for Pacific NW</div>
+                </div>
+                <div class="insight">
+                  <div class="insight-stat">2 CSAs</div>
+                  <div class="insight-desc">Steve currently operates two contracted service areas</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="ep-youtube-wrap">
+            <div class="ep-youtube-label">Watch on YouTube</div>
+            <iframe
+              class="ep-youtube-iframe"
+              src="https://www.youtube.com/embed/T2DfIEJXTIE"
+              title="Episode 1 — FedEx Route Values, 2.0 DRO Tricks &amp; EVs with Steve Ramsthel"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen>
+            </iframe>
+          </div>
+
+          <div class="ep-card-full-footer">
+            <p class="ep-full-quote">You don't know your business if you don't know DRO.</p>
+            <div class="ep-listen-btns">
+              <button class="platform-pill spotify" data-platform="spotify" style="padding:8px 14px; font-size:0.75rem;">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.371-.721.49-1.101.241-3.021-1.858-6.832-2.278-11.322-1.237-.422.1-.851-.16-.949-.58-.1-.422.16-.851.58-.949 4.911-1.121 9.12-.641 12.501 1.43.38.24.5.721.291 1.095zm1.47-3.27c-.299.47-.931.621-1.4.322-3.459-2.131-8.73-2.75-12.82-1.5-.529.16-1.08-.14-1.24-.67-.159-.529.141-1.08.67-1.24 4.67-1.421 10.47-.72 14.43 1.71.47.299.621.93.36 1.38zm.127-3.41c-4.15-2.461-11.001-2.69-14.961-1.49-.639.19-1.31-.17-1.499-.81-.191-.64.17-1.31.81-1.5 4.55-1.38 12.12-1.11 16.9 1.72.57.34.76 1.08.42 1.65-.34.569-1.08.76-1.65.43z"/></svg>
+                Spotify
+              </button>
+              <button class="platform-pill apple" data-platform="apple" style="padding:8px 14px; font-size:0.75rem;">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701"/></svg>
+                Apple
+              </button>
+              <button class="platform-pill youtube" data-platform="youtube" onclick="window.open('https://www.youtube.com/@RoutCast-h4d','_blank'); return false;" style="padding:8px 14px; font-size:0.75rem;">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                YouTube
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- ── EP 2 ── -->
+        <article class="ep-card-full">
+          <div class="ep-card-full-header">
+            <div class="ep-num-block">
+              <div class="ep-num-big">02</div>
+              <div class="ep-num-label">Episode</div>
+            </div>
+            <div class="ep-header-info">
+              <div class="ep-full-meta">
+                <span class="ep-tag">Scaling · Debt · Multi-CSA · Real Estate</span>
+                <span class="ep-duration">~ 75 min</span>
+              </div>
+              <h2 class="ep-full-title">From $75K to $11.6M — The Route Hacking Playbook</h2>
+              <div class="ep-full-guest">Kamran Taqui — K&S Logistics / M&M Delivery / CJK, Framingham MA</div>
+              <p class="ep-full-intro">
+                Kamran Taqui started with $75,000 in 2011 and turned it into three FedEx entities, $11.6M in projected revenue, 74+ trucks, and real estate worth $1.8M. He got $2.8 million in FedEx routes — for free. In this episode he breaks down the exact philosophy and strategy that made it happen, including why most contractors think about debt completely wrong.
+              </p>
+            </div>
+          </div>
+
+          <div class="ep-card-full-body">
+            <div class="ep-topics-col">
+              <div class="ep-col-title">Topics Covered</div>
+              <ul class="topic-list">
+                <li>Good debt vs. bad debt — the mindset shift that unlocks scale</li>
+                <li>House hacking as the gateway to "route hacking"</li>
+                <li>How to structure and qualify for multiple CSA entities</li>
+                <li>Getting free routes from FedEx — the real strategy</li>
+                <li>DRO approach at scale: what changes with 74+ trucks</li>
+                <li>BC development — building leadership that runs without you</li>
+                <li>Achieving zero driver turnover in a tough labor market</li>
+                <li>How real estate equity funded route acquisition</li>
+                <li>Managing three separate FedEx entities simultaneously</li>
+                <li>What FedEx looks for when awarding routes to operators</li>
+              </ul>
+            </div>
+            <div class="ep-insights-col">
+              <div class="ep-col-title">Key Numbers</div>
+              <div class="insight-list">
+                <div class="insight">
+                  <div class="insight-stat">$75K → $11.6M</div>
+                  <div class="insight-desc">Starting capital (2011) to projected annual revenue</div>
+                </div>
+                <div class="insight">
+                  <div class="insight-stat">$2.8M in Routes — Free</div>
+                  <div class="insight-desc">New FedEx routes awarded at no acquisition cost</div>
+                </div>
+                <div class="insight">
+                  <div class="insight-stat">74+ Trucks</div>
+                  <div class="insight-desc">Fleet size across all three operating entities</div>
+                </div>
+                <div class="insight">
+                  <div class="insight-stat">$1.8M Real Estate</div>
+                  <div class="insight-desc">Property portfolio built alongside the route business</div>
+                </div>
+                <div class="insight">
+                  <div class="insight-stat">0% Driver Turnover</div>
+                  <div class="insight-desc">Achieved through compensation and culture systems</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="ep-card-full-footer">
+            <p class="ep-full-quote">I demand hard work. I do not allow slack. But if you're doing it right, you get rewarded.</p>
+            <div class="ep-listen-btns">
+              <button class="platform-pill spotify" data-platform="spotify" style="padding:8px 14px; font-size:0.75rem;">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.371-.721.49-1.101.241-3.021-1.858-6.832-2.278-11.322-1.237-.422.1-.851-.16-.949-.58-.1-.422.16-.851.58-.949 4.911-1.121 9.12-.641 12.501 1.43.38.24.5.721.291 1.095zm1.47-3.27c-.299.47-.931.621-1.4.322-3.459-2.131-8.73-2.75-12.82-1.5-.529.16-1.08-.14-1.24-.67-.159-.529.141-1.08.67-1.24 4.67-1.421 10.47-.72 14.43 1.71.47.299.621.93.36 1.38zm.127-3.41c-4.15-2.461-11.001-2.69-14.961-1.49-.639.19-1.31-.17-1.499-.81-.191-.64.17-1.31.81-1.5 4.55-1.38 12.12-1.11 16.9 1.72.57.34.76 1.08.42 1.65-.34.569-1.08.76-1.65.43z"/></svg>
+                Spotify
+              </button>
+              <button class="platform-pill apple" data-platform="apple" style="padding:8px 14px; font-size:0.75rem;">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701"/></svg>
+                Apple
+              </button>
+              <button class="platform-pill youtube" data-platform="youtube" onclick="window.open('https://www.youtube.com/@RoutCast-h4d','_blank'); return false;" style="padding:8px 14px; font-size:0.75rem;">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                YouTube
+              </button>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ─── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="nav-logo" style="margin-bottom:14px;">
+            <div class="nav-logo-text">
+              <span class="brand">ROUTCAST POD</span>
+              <span class="sub">FedEx Contractor Network</span>
+            </div>
+          </div>
+          <p class="footer-tagline">The podcast where FedEx contractors share real strategies for building businesses that scale, last, and transform.</p>
+        </div>
+        <div>
+          <div class="footer-col-title">Navigate</div>
+          <div class="footer-links">
+            <a href="index.html" class="footer-link">Home</a>
+            <a href="episodes.html" class="footer-link">Episodes</a>
+            <a href="about.html" class="footer-link">About the Show</a>
+          </div>
+        </div>
+        <div>
+          <div class="footer-col-title">Listen On</div>
+          <div class="footer-links">
+            <a href="#" class="footer-link" onclick="return false;">Spotify (Coming Soon)</a>
+            <a href="#" class="footer-link" onclick="return false;">Apple Podcasts (Coming Soon)</a>
+            <a href="#" class="footer-link" onclick="return false;">YouTube (Coming Soon)</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-copy">© 2024 The RoutCast Pod. Made for <span>FedEx contractors</span> who build to win.</div>
+        <div class="footer-legal">
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
