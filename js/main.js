@@ -47,19 +47,19 @@ document.querySelectorAll('.ep-card, .ep-card-full, .pillar, .about-stat, .sideb
 document.querySelectorAll('.platform-pill').forEach(pill => {
   pill.addEventListener('click', () => {
     const platform = pill.dataset.platform;
-    const messages = {
-      spotify: 'Coming soon on Spotify!',
-      apple: 'Coming soon on Apple Podcasts!',
-      youtube: 'Coming soon on YouTube!'
+    const urls = {
+      spotify: 'https://open.spotify.com/show/5KpSqqVDhz8S5uWTu00Ubm',
+      apple: 'https://podcasts.apple.com/us/podcast/routcast/id1895665008',
+      youtube: 'https://www.youtube.com/@RoutCast-h4d'
     };
-    showToast(messages[platform] || 'Coming soon!');
+    if (urls[platform]) window.open(urls[platform], '_blank');
   });
 });
 
 // Play button clicks
 document.querySelectorAll('.ep-play-btn').forEach(btn => {
   btn.addEventListener('click', () => {
-    showToast('Episode player coming soon — find us on Spotify or Apple Podcasts!');
+    showToast('Episode player coming soon â€” find us on Spotify or Apple Podcasts!');
   });
 });
 
